@@ -1,7 +1,7 @@
 # Project Manager App
 
 App Description:
-A basic password management app that allows users to store username, password, and what account those values are for.
+>A basic password management app that allows users to store username, password, and what account those values are for.
 The user's data is protected by a pin that they set, but there is an option to externally reset all of the information
 in the app should the user forget their pin. 
 The app also implements the Have I Been Pwned API to check whether the user's password has been involved in a breach.
@@ -9,17 +9,15 @@ The app also implements the Have I Been Pwned API to check whether the user's pa
 
 ### Team members Contribution
 
-Ethan Davidson
-Work percentage: 30
--Landscape mode
--Create Login xml and activity
 
-Daniel Pipkin
-Work percentage: 35
--Database and API implementation
--Clear Data settings
+- Ethan Davidson - <i>Work percentage: 30% </i> </br>
+  - Landscape mode
+  - Create Login xml and activity
 
-Damaris Poppe
-Work percentage: 35
--Dark Mode
--Recycler Views
+- Daniel Pipkin - <i>Work percentage: 35% </i> </br>
+  - Database and API implementation
+  - Clear Data settings
+
+- Damaris Poppe - <i>Work percentage: 35% </i> </br>
+  - Dark Mode
+  - Recycler Views
