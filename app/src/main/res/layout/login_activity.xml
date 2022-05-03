@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:id="@+id/coordinator_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="30dp"
+    android:paddingLeft="36dp"
+    android:paddingRight="36dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textSize="32sp"
+        />
+
+    <ImageView
+        android:layout_width="158dp"
+        android:layout_height="137dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/lock_icon"
+        app:tint="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/enter_your_pin"
+        android:textSize="24sp"
+        />
+
+    <EditText
+        android:id="@+id/enterLogin"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:inputType="numberPassword"
+        android:maxLength="5"
+        android:textSize="20sp"
+        android:letterSpacing="0.25"
+        />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Button"
+        android:text="@string/open" />
+
+    <TextView
+        android:id="@+id/create_pin_textview"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="64dp"
+        android:text="@string/don_t_have_a_pin"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/create_pin_button"
+        android:visibility="gone"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Button"
+        android:text="@string/create_pin_button" />
+
+</LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

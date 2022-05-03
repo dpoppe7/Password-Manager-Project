@@ -1,0 +1,22 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        app:key="dark_theme"
+        android:defaultValue="false"
+        app:title="@string/pref_title_theme" />
+
+    <!-- Modify these preference files -->
+
+    <Preference
+        app:key="default_changePIN"
+        app:title="@string/pref_title_changePIN">
+        <intent
+        android:targetPackage="com.example.passwordmanagerproject"
+        android:targetClass="com.example.passwordmanagerproject.CreatePINActivity"/>
+    </Preference>
+
+
+
+
+</PreferenceScreen>

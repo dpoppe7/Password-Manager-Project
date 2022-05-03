@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:id="@+id/coordinator_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="30dp"
+    android:paddingLeft="36dp"
+    android:paddingRight="36dp"
+    >
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_new_pin_text"
+        android:textSize="16sp"
+
+        />
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_pin"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pin_length_req"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/create_pin_edit_text"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/PIN_example"
+            android:inputType="numberPassword"
+            android:maxLength="5"
+            android:textSize="20sp"
+            android:letterSpacing="0.25"
+            android:gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/confirm_pin"
+        android:textSize="24sp"
+        />
+
+    <EditText
+        android:id="@+id/pin_confirmation_edit_text"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:maxLength="5"
+        android:textSize="20sp"
+        android:letterSpacing="0.25"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reminder_to_remember"
+        android:textSize="12sp"
+        />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/create_pin_button"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Button"
+        android:text="@string/create_pin_button"
+
+        />
+
+</LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

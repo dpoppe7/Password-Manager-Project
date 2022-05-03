@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.passwordmanagerproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PasswordManagerProject">
+        <activity
+            android:name=".AboutAppActivity"
+            android:parentActivityName=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditEntry"
+            android:exported="false"
+            android:label="@string/selected_entry"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SelectedEntry"
+            android:exported="false"
+            android:label="@string/selected_entry"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AddEntry"
+            android:exported="false"
+            android:label="@string/add"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:label="@string/settings"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:parentActivityName=".LoginActivity"/>
+        <activity
+            android:name=".CreatePINActivity"
+            android:exported="false"
+            android:label="@string/create_pin_mani"
+            android:parentActivityName=".LoginActivity"/>
+
+
+
+    </application>
+
+</manifest>
