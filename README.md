@@ -27,4 +27,6 @@ The FIGMA design can be found here: https://www.figma.com/file/h6j6Rb6Gc7gQ2yc5R
 
 ## Storyboard and how the project looks like:
 
+![P3_pics](https://user-images.githubusercontent.com/70035439/182044443-4a773f5f-1bb4-45b1-95ec-dddee2c356e9.png)
 ![Storyboard_PMapp](https://user-images.githubusercontent.com/70035439/182038844-694035d0-5430-4845-a8f2-76ece9c78b3d.png)
+
