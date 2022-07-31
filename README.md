@@ -1,4 +1,4 @@
-# Project Manager App
+# Project Manager App - Android App
 
 App Description:
 >A basic password management app that allows users to store username, password, for different accounts to never forget your credentials. Writen in Kotlin, this project interacts with user authentication, Shared Preferences, Database, Volley API, Recycler views, landscape mode.
