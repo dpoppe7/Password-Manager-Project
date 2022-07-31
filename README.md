@@ -7,6 +7,8 @@ The app also implements the Have I Been Pwned API to check whether the user's pa
 The user's data is protected by a pin set at first use of the app, but there is an option to externally reset all the information
 in the app in case the user forget their pin. (App has not been launched to play store)
 
+API (Have I Been Pwned): https://haveibeenpwned.com
+
 The FIGMA design can be found here: https://www.figma.com/file/h6j6Rb6Gc7gQ2yc5RMpB95/PasswordManager?node-id=201%3A2
 
 
