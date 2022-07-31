@@ -21,3 +21,7 @@ The app also implements the Have I Been Pwned API to check whether the user's pa
 - Damaris Poppe - <i>Work percentage: 35% </i> </br>
   - Dark Mode
   - Recycler Views
+
+## Storyboard and how the project looks like:
+
+![Storyboard_PMapp](https://user-images.githubusercontent.com/70035439/182038844-694035d0-5430-4845-a8f2-76ece9c78b3d.png)
