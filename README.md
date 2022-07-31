@@ -3,8 +3,9 @@
 App Description:
 >A basic password management app that allows users to store username, password, for different accounts to never forget your credentials. Writen in Kotlin, this project interacts with user authentication, Shared Preferences, Database, Volley API, Recycler views, landscape mode.
 
+The app also implements the Have I Been Pwned API to check whether the user's password has been involved in a breach. 
 The user's data is protected by a pin set at first use of the app, but there is an option to externally reset all the information
-in the app in case the user forget their pin. The app also implements the Have I Been Pwned API to check whether the user's password has been involved in a breach. (App has not been launched to play store)
+in the app in case the user forget their pin. (App has not been launched to play store)
 
 The FIGMA design can be found here: https://www.figma.com/file/h6j6Rb6Gc7gQ2yc5RMpB95/PasswordManager?node-id=201%3A2
 
