@@ -1,11 +1,13 @@
 # Project Manager App - Android App
 
+**(App has not been launched to play store)**
+
 App Description:
 >A basic password management app that allows users to store username, password, for different accounts to never forget your credentials. Writen in Kotlin, this project interacts with user authentication, Shared Preferences, Database, Volley API, Recycler views, landscape mode.
 
 The app also implements the Have I Been Pwned API to check whether the user's password has been involved in a breach. 
 The user's data is protected by a pin set at first use of the app, but there is an option to externally reset all the information
-in the app in case the user forget their pin. (App has not been launched to play store)
+in the app in case the user forget their pin. 
 
 API (Have I Been Pwned): https://haveibeenpwned.com
 
